@@ -6,7 +6,6 @@ order: 5
 permalink: /books/05/
 ---
 
-# 《从存在到演化》导读
 
 > **作者**：伊利亚·普里戈金（Ilya Prigogine）
 > **原版**：*From Being to Becoming: Time and Complexity in the Physical Sciences*（1980，美国；W. H. Freeman）

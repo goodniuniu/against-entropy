@@ -6,7 +6,6 @@ order: 7
 permalink: /books/07/
 ---
 
-# 《自私的基因》导读
 
 > **作者**：理查德·道金斯（Richard Dawkins）
 > **原版**：*The Selfish Gene*（1976，英国；牛津大学出版社）

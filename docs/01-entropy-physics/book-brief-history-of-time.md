@@ -6,7 +6,6 @@ order: 3
 permalink: /books/03/
 ---
 
-# 《时间简史》导读
 
 > **作者**：史蒂芬·霍金（Stephen Hawking）
 > **原版**：*A Brief History of Time*（1988，英国；Bantam）

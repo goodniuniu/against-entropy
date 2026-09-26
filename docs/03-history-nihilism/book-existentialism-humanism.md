@@ -6,7 +6,6 @@ order: 15
 permalink: /books/15/
 ---
 
-# 《存在主义是一种人道主义》导读
 
 > **作者**：让-保罗·萨特（Jean-Paul Sartre）
 > **原版**：*L'existentialisme est un humanisme*（1946，法国；Nagel，演讲整理稿）

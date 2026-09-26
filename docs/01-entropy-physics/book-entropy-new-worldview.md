@@ -6,7 +6,6 @@ order: 1
 permalink: /books/01/
 ---
 
-# 《熵：一种新的世界观》导读
 
 > **作者**：杰里米·里夫金（Jeremy Rifkin） / 特德·霍华德（Ted Howard）
 > **原版**：*Entropy: A New World View*（1980，美国）

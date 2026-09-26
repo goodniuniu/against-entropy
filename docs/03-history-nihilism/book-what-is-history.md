@@ -6,7 +6,6 @@ order: 11
 permalink: /books/11/
 ---
 
-# 《历史是什么？》导读
 
 > **作者**：爱德华·卡尔（Edward Hallett Carr, 1892–1982）
 > **原版**：*What Is History?*（1961，英国；剑桥大学出版社，基于 1961 年特雷弗-罗珀讲座）

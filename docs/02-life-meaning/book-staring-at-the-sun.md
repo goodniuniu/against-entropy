@@ -6,7 +6,6 @@ order: 10
 permalink: /books/10/
 ---
 
-# 《直视骄阳》导读
 
 > **作者**：欧文·亚隆（Irvin D. Yalom）
 > **原版**：*Staring at the Sun: Overcoming the Terror of Death*（2008，美国；Jossey-Bass）

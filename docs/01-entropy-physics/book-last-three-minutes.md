@@ -6,7 +6,6 @@ order: 2
 permalink: /books/02/
 ---
 
-# 《宇宙的最后三分钟》导读
 
 > **作者**：保罗·戴维斯（Paul Davies）
 > **原版**：*The Last Three Minutes*（1994，英国；Basic Books）

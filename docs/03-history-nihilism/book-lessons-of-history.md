@@ -6,7 +6,6 @@ order: 12
 permalink: /books/12/
 ---
 
-# 《历史的教训》导读
 
 > **作者**：威尔·杜兰特（Will Durant） / 阿里尔·杜兰特（Ariel Durant）
 > **原版**：*The Lessons of History*（1968，美国；Simon & Schuster）

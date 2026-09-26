@@ -1,0 +1,22 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><span class="site-mark" aria-hidden="true">✦</span>{{ site.title | escape }}</a>
+
+    <nav class="site-nav" aria-label="站点导航">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger" class="menu-icon" aria-label="展开导航菜单"><span></span></label>
+
+      <div class="trigger">
+        {%- assign nav_url = page.url -%}
+        <a class="page-link{% if nav_url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}">首页</a>
+        <a class="page-link{% if nav_url == '/category/01/' %} is-active{% endif %}" href="{{ '/category/01/' | relative_url }}">物理与熵</a>
+        <a class="page-link{% if nav_url == '/category/02/' %} is-active{% endif %}" href="{{ '/category/02/' | relative_url }}">生命与意义</a>
+        <a class="page-link{% if nav_url == '/category/03/' %} is-active{% endif %}" href="{{ '/category/03/' | relative_url }}">历史与虚无</a>
+        <a class="page-link{% if nav_url == '/paths/' %} is-active{% endif %}" href="{{ '/paths/' | relative_url }}">阅读路径</a>
+        <a class="page-link{% if nav_url == '/appendix/' %} is-active{% endif %}" href="{{ '/appendix/' | relative_url }}">附录</a>
+      </div>
+    </nav>
+  </div>
+
+</header>

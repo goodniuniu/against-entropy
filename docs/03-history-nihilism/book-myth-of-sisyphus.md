@@ -6,7 +6,6 @@ order: 14
 permalink: /books/14/
 ---
 
-# 《西西弗神话》导读
 
 > **作者**：阿尔贝·加缪（Albert Camus）
 > **原版**：*Le Mythe de Sisyphe*（1942，法国；Gallimard）

@@ -2,10 +2,8 @@
 title: 熵、热寂与意义
 permalink: /
 layout: home
-nav_order: 1
 ---
 
-# 熵、热寂与意义
 
 > 一个人的追问，十五本书的回应。
 

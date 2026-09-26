@@ -6,7 +6,6 @@ order: 13
 permalink: /books/13/
 ---
 
-# 《活出生命的意义》导读
 
 > **作者**：维克多·弗兰克尔（Viktor E. Frankl）
 > **原版**：*...trotzdem Ja zum Leben sagen*（1946，德语；美版书名 *Man's Search for Meaning*，1959）

@@ -6,7 +6,6 @@ order: 6
 permalink: /books/06/
 ---
 
-# 《生命是什么》导读
 
 > **作者**：埃尔温·薛定谔（Erwin Schrödinger）
 > **原版**：*What Is Life? The Physical Aspect of the Living Cell*（1944，英国；剑桥大学出版社）

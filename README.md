@@ -14,13 +14,35 @@
 against-entropy/
 ├── _config.yml            # Jekyll 配置（minima 主题）
 ├── index.md               # 首页：全书单总表 + 阅读路径入口
+├── _includes/             # 覆写 minima 模板（页头 / 页脚 / head）
+├── _layouts/page.html     # 覆写 minima 页面布局（眉题 + 徽章，正文标题由布局渲染）
+├── assets/css/entropy.css # 视觉主题「深空纸墨」（见下节）
 └── docs/
     ├── 01-entropy-physics/    # 物理与熵（5 篇导读 + 分类页）
     ├── 02-life-meaning/       # 生命与意义（5 篇导读 + 分类页）
     ├── 03-history-nihilism/   # 历史与虚无（5 篇导读 + 分类页）
-    ├── paths/                 # 5 条主题阅读路径
-    └── appendix/              # 2 篇附录：两场追问的讨论整理
+    ├── paths/                 # 5 条主题阅读路径 + 总览索引页（/paths/）
+    └── appendix/              # 2 篇附录讨论 + 总览索引页（/appendix/）
 ```
+
+## 视觉定制：「深空纸墨」主题
+
+站点外观由两层组成：GitHub Pages 内置的 **minima** 主题负责骨架，本仓库的覆写文件负责视觉。核心思路——夜空底色之上，生长宋体排版的秩序（有序在无序中借流成序）：
+
+| 文件 | 作用 |
+|---|---|
+| `assets/css/entropy.css` | 全部视觉规则：深空底色 + 星空点缀、宋体正文 + 无衬线界面文字、表格圆角面板、金色章节装饰、确定性徽章、移动端适配 |
+| `_includes/head.html` | 主题色 meta、星形 favicon、加载 entropy.css |
+| `_includes/header.html` | 固定页头：站名 + 六项导航（当前项金色高亮，移动端折叠为汉堡菜单） |
+| `_includes/footer.html` | 页脚：站名、标语与「距热寂还有约 10^100 年」一行 |
+| `_layouts/page.html` | 文章页头：标题由布局渲染（正文不再写一级标题），附眉题与「分类 / 难度」徽章 |
+
+内容侧的两条配套约定：
+
+- **各级页面不再在正文写 `# 一级标题`**，标题统一来自 front matter `title`（书籍页 `《书名》 · 导读` 会自动拆为主标题 + 眉题）；
+- 附录中的确定性标记写作 `<span class="ct ct-fact">事实</span>`（`ct-hypo` / `ct-stance` 同理），渲染为三色徽章，对应项目第一红线「区分三档确定性」。
+
+调色改 `entropy.css` 顶部 `:root` 变量即可；正文行长、卡片、表格等排版参数均在该文件内有注释分组。
 
 ## 快速开始（本地预览 / 发布）
 

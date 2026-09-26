@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{%- assign title_parts = page.title | split: " · " -%}
+<article class="post">
+
+  <header class="post-header">
+    {%- if title_parts[1] -%}
+    <p class="kicker">{{ title_parts[1] | escape }}</p>
+    {%- endif -%}
+    <h1 class="post-title">{{ title_parts[0] | escape }}</h1>
+    {%- if page.category or page.level -%}
+    <p class="post-meta">
+      {%- if page.category -%}<span class="chip">{{ page.category | escape }}</span>{%- endif -%}
+      {%- if page.level -%}<span class="chip chip-level">{{ page.level | escape }}</span>{%- endif -%}
+    </p>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

@@ -6,7 +6,6 @@ order: 4
 permalink: /books/04/
 ---
 
-# 《时间之箭》导读
 
 > **作者**：彼得·柯文尼（Peter Coveney） / 罗杰·海菲尔德（Roger Highfield）
 > **原版**：*The Arrow of Time*（1990，英国；W. H. Allen / Fawcett）

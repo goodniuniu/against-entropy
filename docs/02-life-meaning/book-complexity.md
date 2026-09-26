@@ -6,7 +6,6 @@ order: 8
 permalink: /books/08/
 ---
 
-# 《复杂》导读
 
 > **作者**：梅拉妮·米歇尔（Melanie Mitchell）
 > **原版**：*Complexity: A Guided Tour*（2009，美国；牛津大学出版社）

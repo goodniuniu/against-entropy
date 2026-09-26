@@ -6,7 +6,6 @@ order: 9
 permalink: /books/09/
 ---
 
-# 《人类简史》导读
 
 > **作者**：尤瓦尔·赫拉利（Yuval Noah Harari）
 > **原版**：*Sapiens: A Brief History of Humankind*（2011，以色列；希伯来语原版，2014 英译）
