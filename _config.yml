@@ -1,0 +1,35 @@
+# 站点基础配置（GitHub Pages 原生支持，主题 minima）
+title: 熵、热寂与意义
+email: ""
+description: >-
+  围绕三个追问的十五本书：热寂是终点吗？生命在与熵增对抗吗？活着的意义是什么？
+baseurl: "/against-entropy" # 仓库名即子路径，勿改
+url: "https://goodniuniu.github.io"
+lang: zh-CN
+
+# minima 主题（GitHub Pages 内置，无需额外插件）
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# 首页导航
+minima:
+  nav_pages:
+    - index.md
+
+# 排除无需发布的文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - 素材/
+  - vendor/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
