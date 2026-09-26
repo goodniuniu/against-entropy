@@ -22,6 +22,7 @@ minima:
 # 排除无需发布的文件
 exclude:
   - README.md
+  - 链接检查报告.md
   - Gemfile
   - Gemfile.lock
   - 素材/
